@@ -600,6 +600,11 @@ header .right-nav .onCampus:hover, .onOnline:hover, .onCompanies:hover, .onSigni
     }
 }
 
+.bottom-thesis .bThesis-right .thesis-box1:hover, .thesis-box2:hover {
+    background-color: var(--background-color-main);
+    cursor: pointer;
+}
+
 .bottom-thesis .bThesis-right .thesis-box2 {
     outline: 1px solid green;
     width: 100%;
@@ -624,4 +629,32 @@ header .right-nav .onCampus:hover, .onOnline:hover, .onCompanies:hover, .onSigni
     .bthesis-box2-right p {
         font-size: 1.25rem;
     }
+}
+
+footer {
+    outline: 1px solid red;
+    height: var(--nav-height);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.4);
+    background-color: var(--background-color-secondary);
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .left-footer {
+    margin: 16px 0 0 24px;
+}
+
+footer .right-footer {
+    outline: 1px solid blue;
+    margin: 16px 24px 0 0;
+}
+
+footer .right-footer .more-info a{
+    outline: 1px solid red;
+    text-decoration: none;
+    color: var(--font-color-primary);
+}
+
+#more-info1 {
+    margin-right: 8px;
 }
