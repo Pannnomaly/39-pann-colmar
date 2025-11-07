@@ -7,7 +7,7 @@
 }
 
 :root {
-    --font-sans: "Inter";
+    --font-sans: "Poppins";
     --font-color-primary: #111;
     --nav-height: 64px;
     --background-color-main: #d8d8d8;
@@ -302,7 +302,7 @@ header .right-nav {
     grid-template-rows: auto auto auto;
     grid-template-columns: 1fr 1fr 1fr;
     margin: 0 72px 32px 72px;
-    /* gap: 32px; */
+    gap: 32px;
 
     .card-1 {
         outline: 1px solid blue;
