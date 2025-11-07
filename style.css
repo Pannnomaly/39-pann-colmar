@@ -728,4 +728,54 @@ footer .right-footer .more-info a{
     .hero .right-hero .text-hero {
         margin-right: 16px;
     }
+
+    .information .left-info {
+        display: none;
+    }
+
+    .information {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .information .right-info {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        .info-Box1 {
+            display: flex;
+            flex-direction: column;
+        }
+        .info-Box1 .info-Box1-right h3{
+            font-size: 1.25rem;
+        }
+        .info-Box1 .info-Box1-right p{
+            font-size: 1rem;
+        }
+
+        .info-Box2{
+            display: flex;
+            flex-direction: column;
+        }
+        .info-Box2 .info-Box2-right h3{
+            font-size: 1.25rem;
+        }
+        .info-Box2 .info-Box2-right p{
+            font-size: 1rem;
+        }
+
+        .info-Box3 {
+            display: flex;
+            flex-direction: column;
+        }
+        .info-Box3 .info-Box3-right h3{
+            font-size: 1.25rem;
+        }
+        .info-Box3 .info-Box3-right p{
+            font-size: 1rem;
+        }
+    }
 }
