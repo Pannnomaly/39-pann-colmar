@@ -80,6 +80,10 @@ header .right-nav {
     align-items: center;
 }
 
+header .right-nav #campusLogo, #onlineLogo, #loginLogo, #mainLogo {
+    display: none;
+}
+
 header .right-nav .onCampus:hover, .onOnline:hover, .onCompanies:hover, .onSignin:hover {
     background-color: var(--background-color-main);
 }
@@ -657,4 +661,42 @@ footer .right-footer .more-info a{
 
 #more-info1 {
     margin-right: 8px;
+}
+
+@media (max-width: 600px) {
+    #campusText, #onlineText, #logoText, #signinText, #colmarText, #academyText, header .left-nav {
+        display: none;
+    }
+
+    nav .right-nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    nav .right-nav #mainLogo {
+        display: block;
+        img {
+            width: 32px;
+        }
+    }
+    nav .right-nav #campusLogo {
+        display: block;
+        img {
+            width: 32px;
+        }
+    }
+    nav .right-nav #onlineLogo {
+        display: block;
+        img {
+            width: 32px;
+        }
+    }
+    nav .right-nav #loginLogo {
+        display: block;
+        img {
+            width: 32px;
+        }
+    }
 }
