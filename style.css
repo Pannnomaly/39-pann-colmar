@@ -118,6 +118,7 @@ header .right-nav {
 
 .text-hero {
     outline: 1px solid red;
+    margin-left: 12px;
 }
 
 .hero .right-hero button {
@@ -131,7 +132,6 @@ header .right-nav {
 
 .hero .right-hero .text1 {
     margin: 24px 0 24px 0;
-    padding-left: 12px;
 }
 
 .information {
@@ -182,7 +182,6 @@ header .right-nav {
 .information .right-info .info-Box1, .info-Box2, .info-Box3 {
     outline: 1px solid blue;
     margin-top: 32px;
-    /* margin-left: 16px; */
 }
 
 .information .right-info .info-Box1 {
@@ -281,3 +280,237 @@ header .right-nav {
     background-color: var(--background-color-main);
 }
 
+.course {
+    outline: 1px solid yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-color-main);
+    width: 100%;
+}
+
+.course .top-course {
+    outline: 1px solid blue;
+    margin: 32px 0 32px 0;
+    font-size: 2rem;
+}
+
+.course .bottom-course {
+    outline: 1px solid red;
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 72px 32px 72px;
+    /* gap: 32px; */
+
+    .card-1 {
+        outline: 1px solid blue;
+        width: 100%;
+        background-color: var(--background-color-secondary);
+    }
+
+    .card-1:hover {
+        cursor: pointer;
+    }
+
+    .card-1 .img-holder6 {
+        outline: 1px solid green;
+        margin-bottom: 16px;
+    }
+
+    .card-1 .img-holder6 img {
+        width: 100%;
+    }
+
+    .card-1 h3 {
+        outline: 1px solid orange;
+        margin: 0 0 0 16px;
+        font-size: 1.5rem;
+    }
+
+    .card-1 p:first-of-type {
+        margin: 8px 0 8px 16px;
+        font-size: 1.25rem;
+    }
+
+    .card-1 p:last-of-type {
+        margin: 0 0 24px 16px;
+        font-size: 1.25rem;
+    }
+
+    .card-2 {
+        outline: 1px solid blue;
+        width: 100%;
+        background-color: var(--background-color-secondary);
+    }
+
+    .card-2:hover {
+        cursor: pointer;
+    }
+
+    .card-2 .img-holder7 {
+        outline: 1px solid green;
+        margin-bottom: 16px;
+    }
+
+    .card-2 .img-holder7 img {
+        width: 100%;
+    }
+
+    .card-2 h3 {
+        outline: 1px solid orange;
+        margin: 0 0 0 16px;
+        font-size: 1.5rem;
+    }
+
+    .card-2 p:first-of-type {
+        margin: 8px 0 8px 16px;
+        font-size: 1.25rem;
+    }
+
+    .card-2 p:last-of-type {
+        margin: 0 0 24px 16px;
+        font-size: 1.25rem;
+    }
+
+    .card-3 {
+        outline: 1px solid blue;
+        width: 100%;
+        background-color: var(--background-color-secondary);
+    }
+
+    .card-3:hover {
+        cursor: pointer;
+    }
+
+    .card-3 .img-holder8 {
+        outline: 1px solid green;
+        margin-bottom: 16px;
+    }
+
+    .card-3 .img-holder8 img {
+        width: 100%;
+    }
+
+    .card-3 h3 {
+        outline: 1px solid orange;
+        margin: 0 0 0 16px;
+        font-size: 1.5rem;
+    }
+
+    .card-3 p:first-of-type {
+        margin: 8px 0 8px 16px;
+        font-size: 1.25rem;
+    }
+
+    .card-3 p:last-of-type {
+        margin: 0 0 24px 16px;
+        font-size: 1.25rem;
+    }
+
+    .card-4 {
+        outline: 1px solid blue;
+        width: 100%;
+        background-color: var(--background-color-secondary);
+    }
+
+    .card-4:hover {
+        cursor: pointer;
+    }
+
+    .card-4 .img-holder9 {
+        outline: 1px solid green;
+        margin-bottom: 16px;
+    }
+
+    .card-4 .img-holder9 img {
+        width: 100%;
+    }
+
+    .card-4 h3 {
+        outline: 1px solid orange;
+        margin: 0 0 0 16px;
+        font-size: 1.5rem;
+    }
+
+    .card-4 p:first-of-type {
+        margin: 8px 0 8px 16px;
+        font-size: 1.25rem;
+    }
+
+    .card-4 p:last-of-type {
+        margin: 0 0 24px 16px;
+        font-size: 1.25rem;
+    }
+
+    .card-5 {
+        outline: 1px solid blue;
+        width: 100%;
+        background-color: var(--background-color-secondary);
+    }
+
+    .card-5:hover {
+        cursor: pointer;
+    }
+
+    .card-5 .img-holder10 {
+        outline: 1px solid green;
+        margin-bottom: 16px;
+    }
+
+    .card-5 .img-holder10 img {
+        width: 100%;
+    }
+
+    .card-5 h3 {
+        outline: 1px solid orange;
+        margin: 0 0 0 16px;
+        font-size: 1.5rem;
+    }
+
+    .card-5 p:first-of-type {
+        margin: 8px 0 8px 16px;
+        font-size: 1.25rem;
+    }
+
+    .card-5 p:last-of-type {
+        margin: 0 0 24px 16px;
+        font-size: 1.25rem;
+    }
+
+    .card-6 {
+        outline: 1px solid blue;
+        width: 100%;
+        background-color: var(--background-color-secondary);
+    }
+
+    .card-6:hover {
+        cursor: pointer;
+    }
+
+    .card-6 .img-holder11 {
+        outline: 1px solid green;
+        margin-bottom: 16px;
+    }
+
+    .card-6 .img-holder11 img {
+        width: 100%;
+    }
+
+    .card-6 h3 {
+        outline: 1px solid orange;
+        margin: 0 0 0 16px;
+        font-size: 1.5rem;
+    }
+
+    .card-6 p:first-of-type {
+        margin: 8px 0 8px 16px;
+        font-size: 1.25rem;
+    }
+
+    .card-6 p:last-of-type {
+        margin: 0 0 24px 16px;
+        font-size: 1.25rem;
+    }
+}
