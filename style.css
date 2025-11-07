@@ -126,6 +126,7 @@ header .right-nav {
     background-color: var(--font-color-primary);
     color: var(--background-color-main);
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
 .hero .right-hero .text1 {
@@ -137,4 +138,146 @@ header .right-nav {
     outline: 1px solid green;
     background-color: var(--background-color-secondary);
     display: flex;
+    justify-content: center;
+    width: 100%;
 }
+
+.information .left-info {
+    outline: 1px solid blue;
+    width: 60%;
+    padding: 32px 12px 32px 24px;
+}
+
+.img-holder2 {
+    outline: 1px solid purple;
+}
+
+.information .left-info #text2h2{
+    outline: 1px solid aqua;
+    margin-bottom: 24px;
+    font-size: 3.5rem;
+}
+
+.information .left-info #text2p1{
+    outline: 1px solid aqua;
+    margin-bottom: 24px;
+    font-size: 1.25rem;
+}
+
+.information .left-info #text2p2{
+    outline: 1px solid aqua;
+    margin-bottom: 32px;
+    font-size: 1.25rem;
+}
+
+.information .right-info {
+    outline: 1px solid red;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.information .right-info .info-Box1, .info-Box2, .info-Box3 {
+    outline: 1px solid blue;
+    margin-top: 32px;
+    /* margin-left: 16px; */
+}
+
+.information .right-info .info-Box1 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    .info-Box1-left {
+        width: 35%;
+        aspect-ratio: 1/1;
+        padding: 16px;
+    }
+    .info-Box1-right {
+        width: 65%;
+        margin-left: 24px;
+    }
+    .info-Box1-right h3 {
+        font-size: 1.5rem;
+        margin-bottom: 8px;
+    }
+    .info-Box1-right p {
+        font-size: 1.25rem;
+        margin-bottom: 8px;
+    }
+    .info-Box1-right a {
+        text-decoration: none;
+    }
+}
+
+.information .right-info .info-Box1:hover {
+    background-color: var(--background-color-main);
+}
+
+.information .right-info .info-Box2 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    .info-Box2-left {
+        width: 35%;
+        aspect-ratio: 1/1;
+        padding: 16px;
+    }
+    .info-Box2-right {
+        width: 65%;
+        margin-left: 24px;
+    }
+    .info-Box2-right h3 {
+        font-size: 1.5rem;
+        margin-bottom: 8px;
+    }
+    .info-Box2-right p {
+        font-size: 1.25rem;
+        margin-bottom: 8px;
+    }
+    .info-Box2-right a {
+        text-decoration: none;
+    }
+}
+
+.information .right-info .info-Box2:hover {
+    background-color: var(--background-color-main);
+}
+
+.information .right-info .info-Box3 {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    .info-Box3-left {
+        width: 35%;
+        aspect-ratio: 1/1;
+        padding: 16px;
+    }
+    .info-Box3-right {
+        width: 65%;
+        margin-left: 24px;
+    }
+    .info-Box3-right h3 {
+        font-size: 1.5rem;
+        margin-bottom: 8px;
+    }
+    .info-Box3-right p {
+        font-size: 1.25rem;
+        margin-bottom: 8px;
+    }
+    .info-Box3-right a {
+        text-decoration: none;
+    }
+}
+
+.information .right-info .info-Box3:hover {
+    background-color: var(--background-color-main);
+}
+
