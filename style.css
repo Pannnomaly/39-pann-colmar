@@ -778,4 +778,71 @@ footer .right-footer .more-info a{
             font-size: 1rem;
         }
     }
+
+    .course {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .course .top-course {
+        font-size: 1.5rem;
+    }
+
+    .course .bottom-course {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom-course .card-1 {
+        .img-holder6, p {
+            display: none;
+        }
+        padding: 16px 0 24px 16px;
+    }
+    .bottom-course .card-2 {
+        .img-holder7, p {
+            display: none;
+        }
+        padding: 16px 0 24px 16px;
+    }
+    .bottom-course .card-3 {
+        .img-holder8, p {
+            display: none;
+        }
+        padding: 16px 0 24px 16px;
+    }
+    .bottom-course .card-4 {
+        .img-holder9, p {
+            display: none;
+        }
+        padding: 16px 0 24px 16px;
+    }
+    .bottom-course .card-5 {
+        .img-holder10, p {
+            display: none;
+        }
+        padding: 16px 0 24px 16px;
+    }
+    .bottom-course .card-6 {
+        .img-holder11, p {
+            display: none;
+        }
+        padding: 16px 0 24px 16px;
+    }
+
+    .thesis .top-thesis h2{
+        text-align: center;
+    }
+
+    .thesis, .bottom-thesis, .top-thesis {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .bottom-thesis .bThesis-left h2, #hidden1 {
+        display: none;
+    }
 }
